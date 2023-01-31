@@ -1,0 +1,89 @@
+@font-face {
+    font-family:'Overpass';
+    src: url(../font/Overpass-VariableFont_wght.ttf) format('truetype') ;
+    font-weight: 400;
+}
+
+*{padding: 0px;
+  margin:0px;}
+
+body{background-color: hsl(216, 12%, 8%); }
+
+ #container {/* style code */
+             width:350px;
+             height: 340px; 
+             background-color:#1C232D;  
+             border-radius: 28px;
+             position: absolute;
+             /* center code */
+             left: 50%;
+             top: 50%; 
+             transform: translate(-50%, -50%);}
+
+#form {display:block}
+
+#icon {width: 30px ;
+       height: 30px;
+       background-color: #262F38;
+       border-radius:100%;
+       position: static;
+       margin-left:19px;
+       margin-top: -27px;
+}
+           
+#container svg {margin:30px 0px 0px 26px;}
+
+
+#container h1 {color: white;
+               font-family:Overpass; 
+               font-size:25px;
+               margin:20px 0px 0px 24px;}
+
+#container p { font-family:Overpass;
+              color: hsl(217, 12%, 63%);
+              margin:20px 0px 0px 20px;
+              font-size: 15px;}
+
+#container form { margin: 20px 0px 0px 20px;}
+
+#btns{margin: 16px 0px 0px 20px;}
+
+.btn-inpt { width: 48px;
+            height: 48px;    
+            background-color:#262F38;
+            color: #767F8E;
+            border:0px ;
+            border-radius: 100%;
+            font-size: 20px;
+            margin: 0px 5px;}    
+
+#submit {font-family:Overpass;
+         width: 290px;
+         height:40px;
+         background-color:hsl(25, 97%, 53%); 
+         border: 0px;
+         color: white; 
+         margin:23px 0px 0px 11px;
+         border-radius: 10px; }
+
+
+.on_click{background-color:hsl(25, 97%, 53%);
+          color: white;}
+
+
+.btn-inpt:hover{ background-color:#7C8898;
+                 color: white;
+                 transition:all ease-in-out 0.3s;}
+    
+#submit:hover{   background-color:white;
+                 color: hsl(25, 97%, 53%);
+                 transition:all ease-in-out 0.3s;}
+
+#thank-you  { font-family:Overpass;
+              display: none;}
+
+#thank-you h1 {margin-left:110px;}
+
+#thank-you svg {margin-left:85px;}
+
+#thank-you p{color: hsl(217, 12%, 63%);}
